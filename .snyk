@@ -1,0 +1,63 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:minimatch:20160620':
+    - component > component-build > component-builder > component-manifest > unglob > glob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-watcher > sane > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-build > component-builder > component-manifest > unglob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > unglob > glob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-downloader > unglob > glob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-downloader > unglob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > unglob > minimatch:
+        patched: '2016-12-13T20:38:26.950Z'
+  'npm:qs:20140806-1':
+    - component > superagent > qs:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > tiny-lr-fork > qs:
+        patched: '2016-12-13T20:38:26.950Z'
+  'npm:semver:20150403':
+    - component > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-updater > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-outdated2 > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-pin > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-updater > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-build > component-builder > component-flatten > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-outdated2 > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-pin > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-updater > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-outdated2 > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-pin > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-downloader > component-remotes > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+    - component > component-resolver > component-downloader > semver:
+        patched: '2016-12-13T20:38:26.950Z'
+  'npm:tar:20151103':
+    - component > component-resolver > component-downloader > decompress > tar:
+        patched: '2016-12-13T20:38:26.950Z'
